@@ -1,0 +1,10 @@
+:root { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+body { margin: 24px; color: #111; background: #fff; }
+header { margin-bottom: 32px; }
+h1 { font-size: 2rem; margin: 0 0 8px; }
+.hl { color: #0f62fe; }
+nav a { margin-right: 14px; text-decoration: none; color: #0f62fe; }
+nav a:hover { text-decoration: underline; }
+h2 { margin-top: 24px; }
+ul { line-height: 1.9; }
+footer { margin-top: 48px; color: #555; }
