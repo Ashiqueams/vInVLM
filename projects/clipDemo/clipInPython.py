@@ -71,10 +71,17 @@ def main():
 
     # 2) Choose which image to test
     #    Change to "blue_sphere.png" to try the other one.
-    image_path = "red_cube.png"
+    image_path = "blue_sphere.png"
 
     # 3) Prompts to test
-    prompts = ["a red cube", "a blue sphere", "a green triangle", "a cat", "a car"]
+    # prompts = ["a red cube", "a blue sphere", "a green triangle", "a cat", "a car"]
+    # 3) Prompts to test (zero-shot variations)
+    prompts = [
+        "a red cube", "a crimson cube", "a ruby square",
+        "a blue sphere", "a navy ball", "a blue circle",
+        "a green triangle", "an emerald triangle",
+        "the red shape", "the blue shape", "the green shape"
+    ]
 
     # 4) Run CLIP
     ranked = run_clip_on_image(image_path, prompts)
